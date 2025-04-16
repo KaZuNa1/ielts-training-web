@@ -1,0 +1,64 @@
+
+color palette:
+https://coolors.co/palette/ffd6ff-e7c6ff-c8b6ff-b8c0ff-bbd0ff
+
+motivationol quote when first entered page
+
+header contains:
+
+logo--header name------------------------------------------ dark mode-----------profile image
+                                                               
+                                                              
+
+
+body contains:
+
+
+
+
+
+
+
+
+
+footer contains:
+
+version history
+luvdgi <3
+made by tugu
+
+contacts
+
+
+
+
+
+layout:
+
+-------------------------------------
+|            Header                |
+-------------------------------------
+|           chill mode
+    🟦 Listening     🟧 Reading     |
+|  🟩 Writing       🟪 Speaking    |
+-------------------------------------
+|          [ 🔁 Next Day ]         |
+|           [toggle mode]
+-------------------------------------
+|            Footer                |
+-------------------------------------
+
+
+
+-------------------------------------
+|            Header                |
+-------------------------------------
+|           serious mode
+    🟦 Listening     🟧 Reading     |
+|  🟩 Writing       🟪 Speaking    |
+-------------------------------------
+|          [ 🔁 Next Day ]         |
+|           [toggle mode]
+-------------------------------------
+|            Footer                |
+-------------------------------------
