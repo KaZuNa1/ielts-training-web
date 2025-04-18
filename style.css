@@ -1,14 +1,171 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    background-color: aliceblue;
 }
+
+
+/*Header section-------------------------------------------------------------*/
 
 header {
     display: flex;
-    background-color: blueviolet;
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header img {
+    width: 50px;
+    height: 50px;
 }
 
-header img {
-    width: 75px;
-    height: 75px;
+#header_left {
+    display: flex;
+    gap: 50px;
+    width: 50%;
+    align-items: center;
+}
+#header_left img {
+    padding-left: 25px;
+}
+
+#header_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+#header_right img {
+    padding-right: 25px;
+}
+/*Header section-------------------------------------------------------------*/
+
+
+
+/* MAIN CONTENT ------------------------------------------------------------------*/
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: blue;
+    margin-top: 100px;
+    
+
+}
+/* HEADER SECTION OF MAIN CONTENT */
+.header_of_main {
+    display: flex;
+   position: relative;
+    background-color: aqua;
+    height: 35px;
+    align-items: center;
+   justify-content: center;
+
+}
+.header_of_main span {
+    position: absolute;
+    left: 10px;
+}
+/* HEADER SECTION OF MAIN CONTENT ----------------------------------------------------------------------*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    grid-template-rows: repeat(2, auto);   
+    gap: 20px; 
+    place-content: center; 
+    height: 400px; 
+}
+
+.box {
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 350px;
+    height: 150px;
+}
+
+.box h2{
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+    text-align: center;
+}
+
+.box h3 {
+    margin: 10 10 5 10;
+}
+
+.box div {
+    display: flex;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    height: 30px;
+    align-items: center;
+    width: 300px;
+    
+}
+
+.box input {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+   
+}
+
+.footer_of_main {
+    display: flex;
+    height: 35px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+#next_day{
+    height: 25px;
+    width: 100px;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+
+footer h3 {
+    margin: 15px 20px 10px 30px;
+}
+
+#zuzu {
+    display: flex;
+    align-items: center;
+}
+#zuzu p {
+    
+    margin-left: 30px;
+    margin-right:20px ;
+}
+
+footer img{
+    width: 25px;
+    height: 25px;    
+}
+#contact {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.icons {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#made {
+    position: absolute;
+    right: 25px;
+    padding-bottom: 20px;
+    margin-top: 0;
 }
